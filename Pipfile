@@ -4,10 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-jupyter = "*"
 pandas = "*"
+numpy = "*"
 
 [dev-packages]
+jupyter = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.9"
